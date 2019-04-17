@@ -471,7 +471,6 @@ hr.major {
 
 .align-right {
 	text-align: right;
-<<<<<<< HEAD
 }
 .disable-select {
 	user-select: none; /* supported by Chrome and Opera */
@@ -479,8 +478,6 @@ hr.major {
 	-khtml-user-select: none; /* Konqueror HTML */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
-=======
->>>>>>> a3ee72a735641256f166e8f2ced652b74d01eb70
 }
 /* Button */
 
@@ -1713,11 +1710,7 @@ body.is-preload #header {
 	height: 22em;
 }
 #main .item.ver-rect {
-<<<<<<< HEAD
 	height: 31em;
-=======
-	height: 28em;
->>>>>>> a3ee72a735641256f166e8f2ced652b74d01eb70
 	width: 19em;
 	padding: 0;
 }
@@ -1738,18 +1731,12 @@ body.is-preload #header {
 	width: 18em;
 }
 #main .item.ticky-tap {
-<<<<<<< HEAD
 	height: 23em;
 	width: 21em;
-=======
-	height: 22em;
-	width: 20em;
->>>>>>> a3ee72a735641256f166e8f2ced652b74d01eb70
 }
 #main .thumb > h2 {
 	pointer-events: auto;
 	position: relative;
-<<<<<<< HEAD
 	bottom: -92%;
 	font-weight: 600;
 	font-size: 1.5em;
@@ -1773,16 +1760,6 @@ body.is-preload #header {
 	background: rgba(20, 24, 32, 0.8);
 	width: 100%;
 	text-align: center;
-=======
-	bottom: -82%;
-	font-size: 1.3em;
-	left: 0;
-	margin: 0;
-	z-index: 10;
-	background: rgba(18, 21, 29, 0.05);
-	width: 100%;
-	padding: 0.8em;
->>>>>>> a3ee72a735641256f166e8f2ced652b74d01eb70
 }
 #main .thumb > p {
 	display: none;
