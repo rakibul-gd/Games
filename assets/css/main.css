@@ -158,6 +158,7 @@ video {
 	font-size: 100%;
 	font: inherit;
 	position: relative;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -306,10 +307,10 @@ textarea {
 }
 
 a {
-	/* -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out; */
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
 	color: #34a58e;
 	text-decoration: none;
@@ -462,7 +463,7 @@ hr.major {
 }
 .align-topleft {
 	position: absolute;
-	top: 4em;
+	top: 2em;
 	left: 0px;
 }
 .align-center {
@@ -490,10 +491,10 @@ button,
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-	/* -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 	-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out; */
+	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 	background-color: #36383c;
 	border: 0;
 	border-radius: 0;
@@ -1154,10 +1155,10 @@ table.alt tfoot {
 	-webkit-transform: translateY(100vh);
 	-ms-transform: translateY(100vh);
 	transform: translateY(100vh);
-	/* -moz-transition: -moz-transform 0.5s ease;
+	-moz-transition: -moz-transform 0.5s ease;
 	-webkit-transition: -webkit-transform 0.5s ease;
 	-ms-transition: -ms-transform 0.5s ease;
-	transition: transform 0.5s ease; */
+	transition: transform 0.5s ease;
 	-webkit-overflow-scrolling: touch;
 	background: rgba(36, 38, 41, 0.975);
 	bottom: 4em;
@@ -1199,10 +1200,10 @@ table.alt tfoot {
 }
 
 .panel > .closer {
-	/* -moz-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out; */
+	transition: opacity 0.2s ease-in-out;
 	background-image: url('images/close.svg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1282,10 +1283,10 @@ table.alt tfoot {
 }
 
 .poptrox-popup:before {
-	/* -moz-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out; */
+	transition: opacity 0.2s ease-in-out;
 	background-image: -moz-linear-gradient(
 			to left,
 			rgba(31, 34, 36, 0.35),
@@ -1320,10 +1321,10 @@ table.alt tfoot {
 	opacity: 1;
 }
 .poptrox-popup .closer {
-	/* -moz-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out; */
+	transition: opacity 0.2s ease-in-out;
 	background-image: url('images/close.svg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1460,10 +1461,10 @@ body.touch .poptrox-popup .nav-next {
 }
 #wrapper:after {
 	pointer-events: none;
-	/* -moz-transition: opacity 0.5s ease, visibility 0.5s;
+	-moz-transition: opacity 0.5s ease, visibility 0.5s;
 	-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 	-ms-transition: opacity 0.5s ease, visibility 0.5s;
-	transition: opacity 0.5s ease, visibility 0.5s; */
+	transition: opacity 0.5s ease, visibility 0.5s;
 	background: rgba(36, 38, 41, 0.5);
 	content: '';
 	display: block;
@@ -1497,10 +1498,10 @@ body.modal-active #wrapper:after {
 	-ms-animation: spinner 1s infinite linear !important;
 	animation: spinner 1s infinite linear !important;
 	pointer-events: none;
-	/* -moz-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
+	-moz-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 	-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 	-ms-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
-	transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s; */
+	transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 	background-image: url('images/spinner.svg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1520,10 +1521,10 @@ body.modal-active #wrapper:after {
 	width: 2em;
 }
 body.is-preload #wrapper:before {
-	/* -moz-transition: opacity 1s ease-out !important;
+	-moz-transition: opacity 1s ease-out !important;
 	-webkit-transition: opacity 1s ease-out !important;
 	-ms-transition: opacity 1s ease-out !important;
-	transition: opacity 1s ease-out !important; */
+	transition: opacity 1s ease-out !important;
 	-moz-transition-delay: 0.5s !important;
 	-webkit-transition-delay: 0.5s !important;
 	-ms-transition-delay: 0.5s !important;
@@ -1541,12 +1542,11 @@ body {
 
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
-	transform: translateY(
-		0
-	); /* -moz-transition: -moz-transform 1s ease;
+	transform: translateY(0);
+	-moz-transition: -moz-transform 1s ease;
 	-webkit-transition: -webkit-transform 1s ease;
 	-ms-transition: -ms-transform 1s ease;
-	transition: transform 1s ease; */
+	transition: transform 1s ease;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
@@ -1597,10 +1597,10 @@ body.is-preload #header {
 	padding: 0;
 }
 #header nav > ul > li a {
-	/* -moz-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
 	-webkit-transition: background-color 0.5s ease;
 	-ms-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease; */
+	transition: background-color 0.5s ease;
 	border: 0;
 	color: #ffffff;
 	display: inline-block;
@@ -1649,10 +1649,10 @@ body.is-preload #header {
 }
 /* Main */
 #main {
-	/* -moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
+	-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
 	-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 	-ms-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -ms-filter 0.5s ease;
-	transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease; */
+	transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease;
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -1664,10 +1664,10 @@ body.is-preload #header {
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 #main .thumb {
-	/* -moz-transition: opacity 1.25s ease-in-out;
+	-moz-transition: opacity 1.25s ease-in-out;
 	-webkit-transition: opacity 1.25s ease-in-out;
 	-ms-transition: opacity 1.25s ease-in-out;
-	transition: opacity 1.25s ease-in-out; */
+	transition: opacity 1.25s ease-in-out;
 	pointer-events: auto;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	opacity: 1;
@@ -1703,7 +1703,7 @@ body.is-preload #header {
 }
 #main .item.ver-rect {
 	width: 19em;
-	height: 35em;
+	height: 34em;
 	padding: 0;
 }
 #main .item.more-ver-rect {
@@ -1711,42 +1711,41 @@ body.is-preload #header {
 	width: 16em;
 }
 #main .item.dotzy {
-	height: 35em;
+	height: 32em;
 	width: 19em;
 }
 #main .item.less-ver-rect {
-	height: 30em;
-	width: 23em;
-	bottom: -50%;
+	height: 25em;
+	width: 21em;
 }
 #main .item.sqr-rect {
 	height: 13em;
 	width: 18em;
 }
 #main .item.ticky-tap {
-	height: 26em;
-	width: 22em;
+	height: 25em;
+	width: 23em;
 	padding: 0;
 }
 #main .item.enclose {
-	height: 26em;
-	width: 20em;
+	height: 25em;
+	width: 21em;
 	padding: 0;
 }
 #main .item.more-hor-rect {
-	width: 32em;
-	height: 24em;
+	width: 38em;
+	height: 25em;
 }
 #main .item.hor-rect {
-	width: 27em;
-	height: 26em;
+	width: 30em;
+	height: 25em;
 }
 #main .thumb > h2 {
 	pointer-events: auto;
 	position: relative;
-	bottom: -6%;
+	bottom: 0%;
 	font-weight: 600;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	left: center;
 	/* margin: 10; */
 	z-index: 10;
@@ -1759,8 +1758,8 @@ body.is-preload #header {
 	pointer-events: auto;
 	position: relative;
 	font-weight: 600;
-	bottom: -7%;
-	font-size: 1.5em;
+	bottom: 0%;
+	font-size: 1.3em;
 	left: 0;
 	margin: 0;
 	z-index: 10;
@@ -1772,10 +1771,11 @@ body.is-preload #header {
 	display: none;
 }
 #main:after {
-	pointer-events: none; /* -moz-transition: opacity 0.5s ease, visibility 0.5s;
+	pointer-events: none;
+	-moz-transition: opacity 0.5s ease, visibility 0.5s;
 	-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 	-ms-transition: opacity 0.5s ease, visibility 0.5s;
-	transition: opacity 0.5s ease, visibility 0.5s; */
+	transition: opacity 0.5s ease, visibility 0.5s;
 	background: rgba(36, 38, 41, 0.25);
 	content: '';
 	display: block;
@@ -1807,10 +1807,10 @@ body.is-preload #main .thumb {
 	opacity: 0;
 }
 #main .thumb {
-	/* -moz-transition-delay: 2.525s;
+	-moz-transition-delay: 2.525s;
 	-webkit-transition-delay: 2.525s;
 	-ms-transition-delay: 2.525s;
-	transition-delay: 2.525s; */
+	transition-delay: 2.525s;
 	height: calc(40vh - 2em);
 	min-height: 15em;
 	width: 25%;
@@ -1889,19 +1889,19 @@ body.is-preload #main .thumb {
 }
 @media screen and (max-width: 1680px) {
 	#main .thumb {
-		/* -moz-transition-delay: 2.075s;
+		-moz-transition-delay: 2.075s;
 		-webkit-transition-delay: 2.075s;
 		-ms-transition-delay: 2.075s;
-		transition-delay: 2.075s; */
+		transition-delay: 2.075s;
 		height: calc(40vh - 2em);
 		min-height: 20em;
 		width: 33.3333333333%;
 	}
 	#main .thumb:nth-child(1) {
-		/* -moz-transition-delay: 0.65s;
+		-moz-transition-delay: 0.65s;
 		-webkit-transition-delay: 0.65s;
 		-ms-transition-delay: 0.65s;
-		transition-delay: 0.65s; */
+		transition-delay: 0.65s;
 	}
 	#main .thumb:nth-child(2) {
 		-moz-transition-delay: 0.8s;
