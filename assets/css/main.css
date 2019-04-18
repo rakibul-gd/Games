@@ -462,7 +462,7 @@ hr.major {
 }
 .align-topleft {
 	position: absolute;
-	top: 0px;
+	top: 4em;
 	left: 0px;
 }
 .align-center {
@@ -1701,17 +1701,9 @@ body.is-preload #header {
 	top: 0;
 	width: 100%;
 }
-#main .item.hor-rect {
-	width: 27em;
-	height: 22em;
-}
-#main .item.more-hor-rect {
-	width: 35em;
-	height: 22em;
-}
 #main .item.ver-rect {
-	height: 31em;
 	width: 19em;
+	height: 35em;
 	padding: 0;
 }
 #main .item.more-ver-rect {
@@ -1719,31 +1711,46 @@ body.is-preload #header {
 	width: 16em;
 }
 #main .item.dotzy {
-	height: 28em;
-	width: 17em;
+	height: 35em;
+	width: 19em;
 }
 #main .item.less-ver-rect {
-	height: 28em;
+	height: 30em;
 	width: 23em;
+	bottom: -50%;
 }
 #main .item.sqr-rect {
 	height: 13em;
 	width: 18em;
 }
 #main .item.ticky-tap {
-	height: 23em;
-	width: 21em;
+	height: 26em;
+	width: 22em;
+	padding: 0;
+}
+#main .item.enclose {
+	height: 26em;
+	width: 20em;
+	padding: 0;
+}
+#main .item.more-hor-rect {
+	width: 32em;
+	height: 24em;
+}
+#main .item.hor-rect {
+	width: 27em;
+	height: 26em;
 }
 #main .thumb > h2 {
 	pointer-events: auto;
 	position: relative;
-	bottom: -92%;
+	bottom: -6%;
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	left: center;
 	/* margin: 10; */
 	z-index: 10;
-	background: rgba(20, 24, 32, 0.5);
+	background: rgba(255, 255, 255, 0.4);
 	width: 100%;
 	/* padding: 0.3em; */
 	text-align: center;
@@ -1752,12 +1759,12 @@ body.is-preload #header {
 	pointer-events: auto;
 	position: relative;
 	font-weight: 600;
-	bottom: -90%;
+	bottom: -7%;
 	font-size: 1.5em;
 	left: 0;
 	margin: 0;
 	z-index: 10;
-	background: rgba(20, 24, 32, 0.8);
+	background: rgba(255, 255, 255, 0.4);
 	width: 100%;
 	text-align: center;
 }
